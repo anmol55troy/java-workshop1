@@ -1,0 +1,33 @@
+ 
+# =========================
+# Java + Eclipse .gitignore
+# =========================
+
+# --- Eclipse specific ---
+.settings/
+.project
+.classpath
+
+# --- Ignore compiled class files ---
+bin/
+*/bin/
+*.class
+
+# --- Ignore Eclipse temp files ---
+*.tmp
+*.bak
+*.swp
+*~.nib
+.localhistory/
+
+# --- Ignore Mac/Windows OS files ---
+.DS_Store
+Thumbs.db
+
+# --- Ignore build output directories ---
+target/
+out/
+build/
+
+# --- Logs ---
+*.log
