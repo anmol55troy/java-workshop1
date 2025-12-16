@@ -3,7 +3,6 @@ package workshop2;
 abstract class Shape {
     abstract double area();
 }
-
 class Circle extends Shape {
     double radius;
 
@@ -15,7 +14,6 @@ class Circle extends Shape {
         return 3.14 * radius * radius;
     }
 }
-
 class Rectangle extends Shape {
     double width, height;
 

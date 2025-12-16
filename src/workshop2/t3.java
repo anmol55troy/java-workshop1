@@ -27,6 +27,4 @@ public class t3 {
 		myCat.sound();  // Output: meows
 	}
 
-	
-
 }

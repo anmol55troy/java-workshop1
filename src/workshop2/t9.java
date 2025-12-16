@@ -4,13 +4,13 @@ interface Runnable {
     void run();
 }
 
-class Car3 implements Runnable {
+public class t9 implements Runnable {   // <-- changed class name
     public void run() {
         System.out.println("Car is running.");
     }
 
     public static void main(String[] args) {
-        Car3 c = new Car3();
+        t9 c = new t9();
         c.run();
     }
 }
